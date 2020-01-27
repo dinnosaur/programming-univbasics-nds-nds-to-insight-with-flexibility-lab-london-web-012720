@@ -127,7 +127,7 @@ director = []
 director1 = []
 director3 = []
 hash = {}
-hash1 = {}
+
 
 outer_index = 0
 # hash[:title] = Array.new
