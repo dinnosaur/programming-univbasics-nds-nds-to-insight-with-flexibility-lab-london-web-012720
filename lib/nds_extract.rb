@@ -183,7 +183,7 @@ outer_index += 1
       end
 
 print director
-return director1
+return director
 end
 
 
