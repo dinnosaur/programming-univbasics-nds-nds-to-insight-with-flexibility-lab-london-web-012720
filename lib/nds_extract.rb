@@ -184,8 +184,8 @@ outer_index = 0
 outer_index += 1
       end
 director << director1.dup
-print director
-return director
+print director1
+return director1
 end
 
 
