@@ -182,7 +182,7 @@ director << director1
 outer_index += 1
       end
 
-print director 
+print director
 return director1
 end
 
