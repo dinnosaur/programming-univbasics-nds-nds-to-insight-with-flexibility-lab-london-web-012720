@@ -84,13 +84,10 @@ total =0
 
 
           while  index< collection.length do
-                       index2 = 0
+                    
                        total = 0
 
-
-
-
-               total += collection[index][:worldwide_gross]
+                      total += collection[index][:worldwide_gross]
 
 
                       if hash.key?("#{collection[index][:studio]}")
@@ -164,6 +161,7 @@ outer_index = 0
               hash[:title] = source[outer_index][:movies][inner_index][:title]
                 #  hash[:director_name]=[]
                       hash[:director_name] = source[outer_index][:name]
+                      hash[:worldwide_gross] = nil
   hash1 = [hash.dup]
 #      if outer_index < 1
 #          director1 << hash.dup
