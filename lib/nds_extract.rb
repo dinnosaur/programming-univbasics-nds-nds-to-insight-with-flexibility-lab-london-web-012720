@@ -163,6 +163,7 @@ outer_index = 0
 
                       hash[:director_name] = source[outer_index][:name]
                        hash[:worldwide_gross] = source[outer_index][:movies][inner_index][:worldwide_gross]
+                       hash[:studio] = source[outer_index][:movies][inner_index][:studio]
   hash1 = [hash.dup]
 #      if outer_index < 1
 #          director1 << hash.dup
