@@ -173,12 +173,12 @@ outer_index = 0
 #
 # director3 << hash.dup
 # end
-  director1 << hash
+  director1 << hash.dup
    inner_index +=1
       end
 
 
-director << director1
+director << director1.dup
 outer_index += 1
       end
 
