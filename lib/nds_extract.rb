@@ -178,7 +178,7 @@ puts director1
       end
 
 
-
+director << director1 
 outer_index += 1
       end
 
