@@ -157,9 +157,9 @@ outer_index = 0
       inner_index = 0
 
       while inner_index < source[outer_index][:movies].length do
-              
+
               hash[:title] = source[outer_index][:movies][inner_index][:title]
-              
+
                       hash[:director_name] = source[outer_index][:name]
                        hash[:worldwide_gross] = source[outer_index][:movies][inner_index][:worldwide_gross]
   hash1 = [hash.dup]
