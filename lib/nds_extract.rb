@@ -180,7 +180,7 @@ outer_index = 0
 outer_index += 1
       end
 director << director1.dup
-# print director1
+ print director1
 return director1
 end
 
