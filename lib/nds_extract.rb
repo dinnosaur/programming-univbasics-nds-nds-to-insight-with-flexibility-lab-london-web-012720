@@ -165,7 +165,7 @@ puts director1
               hash[:title] = source[outer_index][:movies][inner_index][:title]
                   # hash[:director_name]=[]
                       hash[:director_name] = source[outer_index][:name]
-                  hash=[]
+
 #      if outer_index < 1
 #          director1 << hash.dup
 # else
