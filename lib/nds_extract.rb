@@ -174,14 +174,14 @@ puts director1
   director1 << hash.dup
    inner_index +=1
       end
-director <<  director1
+
 
 
 outer_index += 1
       end
 
-puts director
-return director
+
+return director1
 end
 
 
