@@ -180,7 +180,7 @@ puts director1
 outer_index += 1
       end
 
-
+print director1
 return director1
 end
 
