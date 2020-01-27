@@ -179,11 +179,11 @@ outer_index = 0
    inner_index +=1
       end
 
-director << director1.dup
+
 
 outer_index += 1
       end
-
+director << director1.dup
 print director
 return director
 end
