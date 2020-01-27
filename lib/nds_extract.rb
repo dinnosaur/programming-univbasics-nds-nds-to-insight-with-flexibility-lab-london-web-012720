@@ -122,7 +122,7 @@ director = []
 director1 = []
 director3 = []
 hash = {}
-print source
+
 
 
 outer_index = 0
