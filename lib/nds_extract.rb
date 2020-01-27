@@ -162,27 +162,26 @@ puts director1
 
       while inner_index < source[outer_index][:movies].length do
               #  hash[:title] = []
-              hash[:title] = source[outer_index][:movies][inner_index][:title]
+              hash[:title] = [source[outer_index][:movies][inner_index][:title]]
                 #  hash[:director_name]=[]
-                     hash[:director_name] = source[outer_index][:name]
-     if outer_index < 1
-         director1 << hash.dup
-else
-
-director3 << hash.dup
-end
+#                      hash[:director_name] = [source[outer_index][:name]]
+#      if outer_index < 1
+#          director1 << hash.dup
+# else
+# 
+# director3 << hash.dup
+# end
+  director1 << hash.dup
    inner_index +=1
       end
 director <<  director1
-director << director3
+
 
 outer_index += 1
       end
 
 puts director
 return director
-
-
 end
 
 
