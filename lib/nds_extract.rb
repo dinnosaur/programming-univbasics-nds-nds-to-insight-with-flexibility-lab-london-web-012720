@@ -168,7 +168,7 @@ puts director1
 #      if outer_index < 1
 #          director1 << hash.dup
 # else
-# 
+#
 # director3 << hash.dup
 # end
   director1 << hash.dup
