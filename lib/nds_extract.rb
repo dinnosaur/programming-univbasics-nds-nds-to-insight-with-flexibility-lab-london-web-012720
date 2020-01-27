@@ -151,7 +151,7 @@ outer_index = 0
 
 
 
-puts director1
+puts director
 
 
 
@@ -178,7 +178,7 @@ puts director1
       end
 
 
-director << director1 
+director << director1
 outer_index += 1
       end
 
