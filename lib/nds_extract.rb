@@ -151,7 +151,7 @@ outer_index = 0
 
 
 
-puts director
+
 
 
 
