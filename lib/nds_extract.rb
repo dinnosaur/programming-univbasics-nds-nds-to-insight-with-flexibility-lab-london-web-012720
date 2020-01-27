@@ -84,7 +84,7 @@ total =0
 
 
           while  index< collection.length do
-                    
+
                        total = 0
 
                       total += collection[index][:worldwide_gross]
