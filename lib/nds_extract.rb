@@ -123,7 +123,7 @@ director1 = []
 director3 = []
 hash = {}
 
-
+print source
 outer_index = 0
 # hash[:title] = Array.new
 # hash[:title] = source[outer_index][:movies][0][:title]
@@ -161,7 +161,7 @@ outer_index = 0
               hash[:title] = source[outer_index][:movies][inner_index][:title]
                 #  hash[:director_name]=[]
                       hash[:director_name] = source[outer_index][:name]
-                      hash[:worldwide_gross] = nil
+                      # hash[:worldwide_gross] = source[outer][]
   hash1 = [hash.dup]
 #      if outer_index < 1
 #          director1 << hash.dup
@@ -180,7 +180,7 @@ outer_index = 0
 outer_index += 1
       end
 director << director1.dup
- print director1
+ 
 return director1
 end
 
@@ -197,6 +197,6 @@ end
 def studios_totals(nds)
   a_o_a_movies_with_director_names = movies_with_directors_set(nds)
   movies_with_director_names = flatten_a_o_a(a_o_a_movies_with_director_names)
-  print gross_per_studio(movies_with_director_names)
+
   return gross_per_studio(movies_with_director_names)
 end
