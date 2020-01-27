@@ -163,17 +163,17 @@ outer_index = 0
 
       while inner_index < source[outer_index][:movies].length do
                 # hash[:title] = []
-              hash[:title] = [source[outer_index][:movies][inner_index][:title]]
+              hash[:title] = source[outer_index][:movies][inner_index][:title]
                 #  hash[:director_name]=[]
-                      hash[:director_name] = [source[outer_index][:name]]
- # hash1 = [hash.dup]
+                      hash[:director_name] = source[outer_index][:name]
+  hash1 = [hash.dup]
 #      if outer_index < 1
 #          director1 << hash.dup
 # else
 #
 # director3 << hash.dup
 # end
-  director1 << hash.dup
+  director1 << hash1.dup
 director << director1.dup
 
    inner_index +=1
